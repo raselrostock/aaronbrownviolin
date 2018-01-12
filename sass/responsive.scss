@@ -1,0 +1,1151 @@
+@import 'variables';
+@media (min-width: 768px) and (max-width: 1024px) {
+	#main-nav {
+		.container{
+			width:100%;
+		}
+		.navbar-brand .site-title{
+			padding-top: 3px;
+    		padding-left: 46px;
+		}
+		.navbar-brand .site-title a{
+			font-size: 28px;
+		}
+	}
+	/*----  SECTION  ----*/
+    #testimonial,#about,#audio,#discography,#calendar,#contact{
+		.container{
+			margin:0 auto;
+			width:96%;
+			padding:0 10px;;
+		}
+		.section-title{
+		    margin: 25px auto 20px;
+		}
+	}
+	#testimonial .container .section-title{
+		    font-size: 17px;
+		    line-height: 1.3;
+		    font-weight: 300;
+	}
+	.testimonial-img{
+		width: 60%;
+		margin: 20px auto 38px;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+	#testimonial .testimonial-quote-center,#testimonial .testimonial-quote-left{
+	    	padding: 0 !important;font-size: 17px !important;
+	    	text-align: center;
+	}
+	#testimonial .testimonial-author-center,#testimonial .testimonial-author-left{
+		margin-bottom: 30px;
+		font-size: 17px !important;
+		text-align: center !important;
+		padding: 0;
+	}
+	#about .section-content
+	{
+		.sec-img{
+			width: 50%;
+			height: 50%;
+		border:3px solid #333333;
+		margin:20px auto;
+		}
+
+
+	}
+	#about .envira-gallery-wrap .envira-gallery-public .envira-gallery-item img{
+	    float: none;
+	    display: block;
+	    margin: 15px auto;
+	    padding: 0;
+	    max-width: 100%;
+   		 }
+	/*----  SECTION DISCOCRAPHY ----*/
+	#discography .section-header{
+    	padding:0;
+    }
+    #discography .section-content p{
+		color:$bg-white;
+		padding:6px 0;
+		font-size: 14px !important;
+		a{
+			color: #cb4332;
+			font-size: 14px!important;
+		}
+		a:hover{color:$bg-white;}
+	}
+	#discography .section-content .sec-img{
+		width: 50%;
+		margin: 10px auto;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+	/*----  SECTION CALENDAR ----*/
+	#calendar .section-content{
+		width: 80%;
+	    height: auto;
+	    margin: 0 auto;
+	    float:none;
+	}
+	#calendar .section-content ul li .entry-title {
+	    float: right;
+	    width: 100%;
+	    margin-bottom: 5px;
+	}
+	#calendar .section-content ul li .duration {
+	    float: left;
+	    width: 100%;
+	}
+	.single-tribe_events .tribe-events-schedule {
+	    background:none;
+	    border: none; 
+	    margin: 18px 0 8px;
+	    padding:0; 
+	}
+	#tribe-events p{
+		margin: 0;
+		padding: 0;
+	}
+	.tribe-events-list h2.tribe-events-page-title {
+	    margin:0;
+	    padding: 0;
+	}
+	#tribe-events-footer .tribe-events-sub-nav, #tribe-events-header .tribe-events-sub-nav {
+	    display:none;
+	}
+	.tribe-events-cal-links,
+	.tribe-events-single-section,
+	#tribe-events-header,
+	.tribe-bar-filters,
+	#tribe-events .tribe-events-button,
+	.tribe-events-gmap,
+	.tribe-events-button{
+		display:none!important;
+	}
+	.tribe-events-list .type-tribe_events {
+	    border: none;
+	    margin: 30px 0;
+	}
+	.tribe-events-loop .tribe-events-event-meta,
+	.tribe-events-list .tribe-events-venue-details {
+	    background: #000000;
+	    border:none;
+	    margin:0;
+	    padding:0;
+	}
+	.tribe-events-list .time-details, .tribe-events-list .tribe-event-schedule-details {
+	    margin:10px 0;
+	    padding: 0; 
+	}
+	.tribe-events-list-separator-month {
+	    margin:0;
+	    padding: 0;
+	}
+    .footer-img-wrap{
+		
+	}	
+	.footer-img{
+	
+	}
+	#photo{
+		}
+	.widget-area{
+ 		
+		    padding: 18px;
+    margin: 20px auto;
+	}
+	.widget_search form {
+    position: relative;
+    width:248px;
+    float: left;
+    margin:0;
+	}
+	.page-content{
+		margin: 0 auto 30px;
+    	width: 90%;
+    	p{
+    		font-family: 'Open Sans', sans-serif;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color: $bg-white;
+    	}
+    	form{
+		    position: relative;
+		    width: 248px;
+		    margin: 0 auto;
+
+		}
+	}
+		/*----  MUSIC ALBUM  ----*/
+	.div-album{
+		width:100%;
+		height:100%;
+		margin:40px auto;
+		overflow: hidden;
+	}
+	.album-left{
+		float: left;
+		width:100%;
+		height:100%;
+		border:none !important;
+	}
+	.album-right{
+		float: left;
+		width:100%;
+		height:100%;
+		height:auto;
+	}
+	
+	.music-album-wrapper{
+		padding: 0 !important;
+	    overflow: hidden;
+	    width: 100%;
+	    height: auto;
+	    margin: 0px auto 20px;
+	}
+	.album-cover-wrapper{
+		float: left;
+		width:100%;
+		height:100%;
+		padding: 0px 25px 30px;
+	}
+	.album-cover-content
+	{
+		width:70%;
+		margin:0 auto;
+	}
+	
+	.album-controls .playBtn{
+	    -webkit-transition: .25s all linear;
+	    -moz-transition: .25s all linear;
+	    -ms-transition: .25s all linear;
+	    -o-transition: .25s all linear;
+	    transition: .25s all linear;
+	    -webkit-border-radius:50%;
+	    -moz-border-radius: 50%;
+	    -ms-border-radius:50%;
+	    -o-border-radius:50%;
+	    border-radius: 50%;
+	    position: absolute;
+	    bottom: 50%;
+	    left: 50%;
+	    border:none;
+	    opacity: 0.8;
+	    display: block;
+	    width: 50px;
+	    height: 50px;
+	    margin-bottom: -25px;
+	    margin-left: -25px;
+	    background: #000;
+	    padding: 0;
+	}
+	.album-controls .playBtn .play-icon {
+	    display: block;
+		position: relative;
+		//left: 50%;
+		//top: 50%;
+		margin-top: 0px;
+		margin-left: 20px;
+		width: 0px;
+		height: 0px;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-left: 20px solid #fff;
+		-webkit-transform: translatez();
+		-ms-transform: translatez();
+		transform: translatez();
+	//border:1px solid red;
+	}
+	.album-controls .stopBtn{
+	    margin: -15px;
+	    bottom: 0!important;
+	    left: 0!important;
+	    -webkit-transform: scale(.4,.4);
+	    -ms-transform: scale(.4,.4);
+	    transform: scale(.4,.4);
+	    background: rgba(0,0,0,.7);
+	    opacity: .8;
+	    -webkit-transition: .25s all linear;
+	    -moz-transition: .25s all linear;
+	    -ms-transition: .25s all linear;
+	    -o-transition: .25s all linear;
+	    transition: .25s all linear;
+	    -webkit-border-radius:50%;
+	    -moz-border-radius: 50%;
+	    -ms-border-radius:50%;
+	    -o-border-radius:50%;
+	    border-radius: 50%;
+	    position: absolute;
+	    border:none;
+	    bottom: 50%;
+	    left: 50%;
+	    display: block;
+	    width: 80px;
+	    height: 80px;
+	    background: #000;
+	    padding: 0;
+	}
+	 .album-controls .stopBtn .stop-icon{
+	    display: block;
+	    position: relative;
+	    //left: 50%;
+	    //top: 50%;
+	    margin-top:0px;
+	    margin-left: 25px;
+	    width: 0px;
+	    height: 0px;
+	    //border:15px solid #fff;
+	    //border-top: 18px solid transparent;
+	    //border-bottom: 18px solid transparent;
+	    //border-left: 30px solid #fff;
+	    height: 30px;
+		width: 10px;
+		background-color: #fff;
+	    -webkit-transform: translatez();
+	    -ms-transform: translatez();
+	    transform: translatez();
+	}
+	.album-controls .stopBtn .stop-icon::before{
+	    content: '';
+	    display: block;
+	    margin-left: 16px;
+	    height: 30px;
+		width: 10px;
+		background-color: #fff;
+	}
+	#tracker {
+	    position:relative;
+	    margin: 0 auto;
+	width:300px;
+	}
+	#progressBar { 
+	   width:300px;
+	  background-color:$bg-white;
+	  height: 10px;
+	   float:left;
+	   overflow: hidden;
+	}
+	#progress {
+	   background-color:#cb4332;
+	   height:10px;
+	   //width: 0px;
+	   display:inline-block;
+	   float: left;
+	}
+
+	#divTime{
+		width: 300px;
+	    height: 32px;
+	    margin-top: 5px;
+	    overflow: hidden;
+	    float: left;
+	}
+
+	#duration{
+		width: 33px;
+	    color: #cb4332;
+	    top: 0;
+	    right: 0;
+	    background: #000;
+	    float: right;
+	}
+	.album-description{
+		text-align:left;
+		margin:20px 0 0px;
+		padding: 0!important;
+		.album-title {
+	    font-size: 18px;
+	    padding: 0!important;
+		}
+		p .album-artist{
+	    font-size: 13px!important;
+	    padding: 0!important;
+		}
+		p{
+		font-size: 12px!important;
+	    padding: 0!important;		}
+	}
+	
+	.wp-playlist-item .wp-playlist-caption{
+		text-align: center;
+	    text-decoration: none;
+	    color: $bg-white !important;
+	    padding:10px 0;
+	}
+	 /*----  SECTION CONTACT ----*/
+	#contact .container {
+	    margin: 0 auto;
+	    width: 100%;
+	    padding: 0 3px;
+	}
+    #contact .section-header{
+    	margin: 20px auto 10px;
+    	padding: 0;
+    }
+    #contact .section-title{
+    	margin: 0!important;
+    	padding: 0!important;
+    }
+    #contact .section-content{
+	    width:100%;
+	    margin: -8px!important;
+	}
+	#contact .section-content .mce-field-group .wpcf7-form-control-wrap {
+	    position: relative;
+	    margin: 15px auto;
+	    width: 304px;
+	}
+}
+
+@media (max-width: 767px) {
+	#main-nav {
+
+		.container{
+			width:100%;
+		}
+		.navbar-brand .site-title{
+			padding-top:15px;
+		}
+		.navbar-brand .site-title a{
+			font-size: 28px;
+		}
+	}
+	#menu-aaronbrownviolin-menu a{
+			font-family: 'Open Sans', sans-serif;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color:$bg_white;
+		    &:hover,&:link,&:active,&:visited{		
+		    		color:$bg_white;
+		    	}
+		    
+	}
+	.navbar-inverse .navbar-nav > li > a:hover {
+    		color: $bg_white !important;
+	}
+	/*----  SECTION  ----*/
+    #testimonial,#about,#audio,#discography,#calendar,#contact{
+		.container{
+			margin:0 auto;
+			width:96%;
+			padding:0 10px;;
+		}
+		.section-title{
+		    margin: 25px auto 20px;
+		}
+	}
+	/*----  SECTION TESTIMONIAL ----*/
+	#testimonial{
+		padding: 0;
+	}
+	#testimonial .container .section-header{
+		padding: 25px 0 20px;
+	}
+	#testimonial .container .section-title{
+		    font-size: 17px;
+		    line-height: 1.3;
+		    font-weight: 300;
+	}
+	.testimonial-img{
+		width: 60%;
+		margin: 20px auto 38px;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+	#testimonial .testimonial-quote-center,#testimonial .testimonial-quote-left{
+	    	padding: 0 !important;font-size: 17px !important;
+	    	text-align: center;
+	}
+	#testimonial .testimonial-author-center,#testimonial .testimonial-author-left{
+		margin-bottom: 30px;
+		font-size: 17px !important;
+		text-align: center !important;
+		padding: 0;
+	}
+
+	/*----  SECTION ABOUT ----*/
+	#about,#calendar,#contact{
+		background:$bg-white;
+		.section-title{
+			color: $bg-black;
+		}
+	}
+	#about .envira-gallery-wrap .envira-gallery-public .envira-gallery-item img{
+	    float: none;
+	    display: block;
+	    margin: 15px auto;
+	    padding: 0;
+	    max-width: 100%;
+   		 }
+	#about .section-content
+	{
+		.sec-img{
+			width: 50%;
+		border:3px solid #333333;
+		margin:20px auto;
+		}
+
+	}
+	/*----  SECTION DISCOCRAPHY ----*/
+	#discography .section-header{
+    	padding:0;
+    }
+    #discography .section-content p{
+		color:$bg-white;
+		padding:6px 0;
+		font-size: 14px !important;
+		a{
+			color: #cb4332;
+			font-size: 14px!important;
+		}
+		a:hover{color:$bg-white;}
+	}
+	#discography .section-content .sec-img{
+		width: 50%;
+		margin: 10px auto;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+	 /*----  SECTION CONTACT ----*/
+	 #contact .container {
+	    margin: 0 auto;
+	    width: 100%;
+	    padding: 0 3px;
+	}
+    #contact .section-header{
+    	margin: 20px auto 10px;
+    	padding: 0;
+    }
+    #contact .section-title{
+    	margin: 0!important;
+    	padding: 0!important;
+    }
+    #contact .section-content{
+	    width:100%;
+	    margin: -8px!important;
+	}
+	#contact .section-content .mce-field-group .wpcf7-form-control-wrap {
+	    position: relative;
+	    margin: 15px auto;
+	    width: 304px;
+	}
+	#contact .section-content #mc-form .mce-field-group textarea {
+	    border: 1px solid #808080;
+	    width: 80%;
+	    padding: 5px 15px;
+	    height: 120px;
+	    margin-bottom: 5px;
+	}
+	div.wpcf7-validation-errors {
+	    border: 2px solid red;
+	    width: 250px;
+	    margin: 10px auto;
+	}
+	/*----  SECTION CALENDAR ----*/
+	#calendar .section-content{
+		width: 80%;
+	    height: auto;
+	    margin: 0 auto;
+	    float:none;
+	}
+	#calendar .section-content ul li .entry-title {
+	    float: right;
+	    width: 100%;
+	    margin-bottom: 5px;
+	}
+	#calendar .section-content ul li .duration {
+	    float: left;
+	    width: 100%;
+	}
+	#tribe-events p{
+		margin: 0;
+		padding: 0;
+	}
+	.tribe-events-list h2.tribe-events-page-title {
+	    margin:0;
+	    padding: 0;
+	}
+	.single-tribe_events .tribe-events-schedule {
+	    background:none;
+	    border: none; 
+	    margin: 18px 0 8px;
+	    padding:0; 
+	}
+	#tribe-events-footer .tribe-events-sub-nav, #tribe-events-header .tribe-events-sub-nav {
+	    display:none;
+	}
+	.tribe-events-cal-links,
+	.tribe-events-single-section,
+	#tribe-events-header,
+	.tribe-bar-filters,
+	#tribe-events .tribe-events-button,
+	.tribe-events-gmap,
+	.tribe-events-button{
+		display:none!important;
+	}
+	.tribe-events-list .type-tribe_events {
+	    border: none;
+	    margin: 30px 0;
+	}
+	.tribe-events-loop .tribe-events-event-meta,
+	.tribe-events-list .tribe-events-venue-details {
+	    background: #000000;
+	    border:none;
+	    margin:0;
+	    padding:0;
+	}
+	.tribe-events-list .time-details, .tribe-events-list .tribe-event-schedule-details {
+	    margin:10px 0;
+	    padding: 0; 
+	}
+	.tribe-events-list-separator-month {
+	    margin:0;
+	    padding: 0;
+	}
+ 	.widget-area{
+    margin: 20px auto;
+	}
+	.widget_search form {
+    position: relative;
+    width: 248px;
+    float: left;
+    margin:0;
+	}
+	.page-content{
+		margin: 0 auto 30px;
+    	width: 90%;
+    	p{
+    		font-family: 'Open Sans', sans-serif;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color: $bg-white;
+    	}
+    	form{
+		    position: relative;
+		    width: 248px;
+		    margin: 0 auto;
+
+		}
+	}
+		/*----  MUSIC ALBUM  ----*/
+	.audio-album .col-md-6 {
+    border: none !important;
+    margin: 30px auto;
+	}
+	
+	.music-album-wrapper{
+		padding: 0 !important;
+	    overflow: hidden;
+	    width: 75%;
+	    height: auto;
+	    margin: 0px auto 20px;
+	}
+	.album-cover-wrapper{
+		float: left;
+		width:100%;
+		height:100%;
+		padding: 0px 25px 25px;
+	}
+	.album-cover-content
+	{
+		width:75%;
+		margin:0 auto;
+	}
+	
+	.album-controls .bt {
+	    webkit-transition: .25s all linear;
+	    -moz-transition: .25s all linear;
+	    -ms-transition: .25s all linear;
+	    -o-transition: .25s all linear;
+	    transition: .25s all linear;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    position: absolute;
+	    bottom: 50%;
+	    left: 50%;
+	    border: none;
+	    opacity: 0.8;
+	    display: block;
+	    width: 60px;
+	    height: 60px;
+	    margin-bottom: -23px;
+	    margin-left: -25px;
+	    background: #000;
+	}
+	.album-controls #paus {
+	    margin: -15px;
+	    bottom: 0!important;
+	    left: 0!important;
+	    -webkit-transform: scale(.4,.4);
+	    -ms-transform: scale(.4,.4);
+	    transform: scale(.4,.4);
+	        background: rgba(0,0,0,.7);
+	    opacity: .9;
+	    -webkit-transition: .25s all linear;
+	    -moz-transition: .25s all linear;
+	    -ms-transition: .25s all linear;
+	    -o-transition: .25s all linear;
+	    transition: .25s all linear;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    position: absolute;
+	    border:none;
+	    bottom: 50%;
+	    left: 50%;
+	    display: block;
+	    width: 90px;
+	    height: 90px;
+	    background: #000;
+	}
+	 .album-controls .icon {
+	    display: block;
+	    position: relative;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: -1px;
+	    margin-left: -6px;
+	    width: 0px;
+	    height: 0px;
+	    border-top: 10px solid transparent;
+	    border-bottom: 10px solid transparent;
+	    border-left: 18px solid #fff;
+	    -webkit-transform: translatez();
+	    -ms-transform: translatez();
+	    transform: translatez();
+	}
+	.album-description{
+		text-align:left;
+		margin:20px 0 0px;
+		padding: 0!important;
+		.album-title {
+	    font-size: 18px;
+	    padding: 0!important;
+		}
+		p .album-artist{
+	    font-size: 13px!important;
+	    padding: 0!important;
+		}
+		p{
+		font-size: 12px!important;
+	    padding: 0!important;		}
+	}
+	
+	.wp-playlist-item .wp-playlist-caption{
+		text-align: center;
+	    text-decoration: none;
+	    color: $bg-white !important;
+	    padding:10px 0;
+	}
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.site-content .container{
+		margin:0;
+		padding: 0;
+		width: 100%;
+		
+	}
+	.content-left-wrap{
+		margin:0;
+		padding: 40px 0 0;
+		width: 100%;
+	}
+	.page-header{
+		padding: 18px;
+	}
+	article,article.hentry{
+		float: left;
+	    width: 100%;
+	    padding:0px 18px 30px;
+	    margin-bottom: 30px;
+	    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	}
+	.entry-title:after {
+	    width: 23%;
+	}
+
+	#main-nav {
+		.container{
+			width: 100%;
+	    	margin: 0;
+	    	padding: 0;
+		}
+		.navbar-brand .site-title{
+			padding-top:15px;
+			padding-left: 10px;
+		}
+		.navbar-brand .site-title a{
+			font-size: 28px;
+		}
+	}
+	#menu-aaronbrownviolin-menu a{
+			font-family: 'Open Sans', sans-serif;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color:$bg_white;
+		    &:hover,&:link,&:active,&:visited{		
+		    		color:$bg_white;
+		    	}
+		    
+	}
+	.navbar-inverse .navbar-nav > li > a:hover {
+    		color: $bg_white !important;
+	}
+	/*----  SECTION  ----*/
+    #testimonial,#about,#audio,#discography,#calendar,#contact{
+		.container{
+			margin: 0 auto;
+    		width: 96%;
+    		padding: 0 10px;
+		}
+		.section-title{
+		    margin: 25px auto 20px;
+		}
+	}
+	/*----  SECTION TESTIMONIAL ----*/
+	#testimonial{
+		padding: 0;
+	}
+	#testimonial .container .section-header{
+		padding: 25px 0 20px;
+	}
+	#testimonial .container .section-title{
+		    font-size: 15px;
+		    line-height: 1.3;
+		    font-weight: 300;
+	}
+	.testimonial-img{
+		width: 70%;
+		margin: 20px auto 38px;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+	#testimonial .testimonial-quote-center,#testimonial .testimonial-quote-left{
+	    	padding: 0 !important;font-size: 16px !important;
+	    	text-align: center;
+	}
+	#testimonial .testimonial-author-center,#testimonial .testimonial-author-left{
+		margin-bottom: 30px;
+		font-size: 16px !important;
+		text-align: center !important;
+		padding: 0;
+	}
+	/*----  SECTION ABOUT ----*/
+	#about,#calendar,#contact{
+		background:$bg-white;
+		.section-title{
+			color: $bg-black;
+		}
+	}
+	#about .envira-gallery-wrap .envira-gallery-public .envira-gallery-item img{
+	    float: none;
+	    display: block;
+	    margin: 6px 3px;
+	    padding: 0;
+	    max-width: 100%;
+   		 }
+   		
+	
+	#about .section-content
+	{
+		.sec-img{
+			width: 50%;
+		border:3px solid #333333;
+		margin:20px auto;
+		}
+
+	}
+	/*----  SECTION AUDIO ----*/
+    #audio .section-content p{
+    	padding:1px;
+    	font-family: 'Open Sans', sans-serif;
+    	font-size: 14px !important;
+    	font-weight: 300;
+    }
+    /*----  SECTION DISCOCRAPHY ----*/
+    #discography .section-header{
+    	padding:0;
+    }
+    #discography .section-content p{
+		color:$bg-white;
+		padding:6px 0;
+		font-size: 13px !important;
+		a{
+			color: #cb4332;
+			font-size: 13px!important;
+		}
+		a:hover{color:$bg-white;}
+	}
+	#discography .section-content .sec-img{
+		width: 70%;
+		margin: 10px auto;
+		border:1px solid #333333;
+		//outline-offset:3px;
+	}
+    /*----  SECTION CONTACT ----*/
+    #contact .container {
+	    margin: 0 auto;
+	    width: 100%;
+	    padding: 0 3px;
+	}
+    #contact .section-header{
+    	margin: 20px auto 10px;
+    	padding: 0;
+    }
+    #contact .section-title{
+    	margin: 0!important;
+    	padding: 0!important;
+    }
+    #contact .section-content{
+	    width:100%;
+	    margin: -8px 0!important;
+	}
+	#contact .section-content #mc-form {
+	    width: 100%;
+	}
+	#contact .section-content .mce-field-group .wpcf7-form-control-wrap {
+	    position: relative;
+	    margin: 15px auto;
+	    width: 304px;
+	}
+	#contact .section-content #mc-form .mce-field-group textarea {
+	    border: 1px solid #808080;
+	    width: 80%;
+	    padding: 5px 15px;
+	    height: 120px;
+	    margin-bottom: 5px;
+	}
+	.wpcf7 input[type="submit"],
+	.wpcf7 input[type="button"] { 
+		background-color: $bg-black;
+		color:$bg-white;
+	    width: 100px !important;
+	    height: 37px!important;
+	    font-size: 14px!important;
+	    text-align: center;
+	    text-transform: uppercase;
+	    border-radius: 10px 10px 10px 10px;
+	    margin:10px auto !important;
+    
+	}
+	div.wpcf7-validation-errors {
+	    border: 2px solid red;
+	    width: 200px;
+	    margin: 10px auto;
+	}
+	iframe{
+    	margin: 6px auto;
+	    padding: 0;
+    }
+    /*----  SECTION CALENDAR ----*/
+    article .backLinks a
+	{
+		padding-left: 0;
+		&:hover{
+		color:#cb4332;
+		}
+	}
+	#calendar .section-content{
+		    width: 100%;
+    		height: auto;
+    		margin: 0 auto;
+	}
+	#calendar .section-content ul li .entry-title {
+	    float: right;
+	    width: 100%;
+	}
+	#calendar .section-content ul li .duration {
+	    float: left;
+	    width: 100%;
+	}
+	#tribe-events p{
+		margin: 0;
+		padding: 0;
+	}
+	.tribe-events-list h2.tribe-events-page-title {
+	    margin:0;
+	    padding: 0;
+	}
+	.single-tribe_events .tribe-events-schedule {
+	    background:none;
+	    border: none; 
+	    margin: 18px 0 8px;
+	    padding:0; 
+	}
+	#tribe-events-footer .tribe-events-sub-nav, #tribe-events-header .tribe-events-sub-nav {
+	    display:none;
+	}
+	.tribe-events-cal-links,
+	.tribe-events-single-section,
+	#tribe-events-header,
+	.tribe-bar-filters,
+	#tribe-events .tribe-events-button,
+	.tribe-events-gmap,
+	.tribe-events-button{
+		display:none!important;
+	}
+	.tribe-events-list .type-tribe_events {
+	    border: none;
+	    margin: 30px 0;
+	}
+	.tribe-events-loop .tribe-events-event-meta,
+	.tribe-events-list .tribe-events-venue-details {
+	    background: #000000;
+	    border:none;
+	    margin:0;
+	    padding:0;
+	}
+	.tribe-events-list .time-details, .tribe-events-list .tribe-event-schedule-details {
+	    margin:10px 0;
+	    padding: 0; 
+	}
+	.tribe-events-list-separator-month {
+	    margin:0;
+	    padding: 0;
+	}
+	/*----  BACKGROUND IMAGE ----*/
+	.header-img-wrap{
+		height: 400px;
+		width:100%;
+		overflow: hidden;
+		.header-img{
+			display: none;
+			/*
+			background:url('../../images/candc538.jpg');
+			  background-repeat:no-repeat;
+    			//background-position:center center!important;
+				//background-size:cover!important; 
+				background-position:center center!important;
+				//background-size:cover!important; 
+				background-size: 100% 100% ;
+				border:1px solid green;
+				height: 60vh;
+				background:none;
+			
+				#photo{
+		    		//height: 60vh;
+					//display: block; 
+				//width:100vw;
+				background:url('../../images/candc538.jpg');
+			  background-repeat:no-repeat;
+    			background-position:center center!important;
+				//background-size:cover!important; 
+				background-size: 100% 100% !important;
+				//border:1px solid yellow;
+        		//background-position: center center;
+        		border:1px solid yellow;
+        		display: block;
+        		height: 60vh;
+			}
+			img{width:100%;
+				height: 100%;}*/
+		}
+		.header-imgMob{
+			background-attachment: fixed;
+		    width: 100%;
+		    vertical-align: middle;
+		    color: transparent;
+		    background-size: contain;
+    		background-position: 50% 50%;
+		    background-repeat: no-repeat;
+		    height: 100%;
+				img{max-width:100%;
+				height: auto;}
+		}
+	}
+	.middle-top-img-wrap,.middle-bottom-img-wrap,.footer-img-wrap{
+		margin: 0;
+		padding: 0;
+		height: 40vh;
+
+		.middle-top-img,.middle-bottom-img,.footer-img{
+			width: 100%;
+    		height: 40vh;
+			}
+	}
+	.widget-area{
+		    padding: 18px;
+    margin: 20px auto;
+	}	
+
+	.widget_search form{
+    position: relative;
+    width: 70%;
+    float: left;
+    margin:0;
+	}
+	
+	.page-content{
+		margin: 0 auto 30px;
+    	width: 90%;
+    	p{
+    		font-family: 'Open Sans', sans-serif;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color: $bg-white;
+    	}
+    	form{
+		    position: relative;
+		    width: 248px;
+		    margin: 0 auto;
+
+		}
+	}
+
+		/*----  MUSIC ALBUM  ----*/
+	
+	
+	.music-album-wrapper{
+		margin-bottom:15px;
+		padding:0!important;
+		overflow: hidden;
+		width:100%;
+		height:auto;
+	}
+	.album-cover-wrapper{
+		float: left;
+		width:100%;
+		height:100%;
+		padding: 0px 25px 14px;
+	}
+	.album-cover-content
+	{
+		width:75%;
+		margin:0 auto;
+	}
+	
+	
+	.album-description{
+		text-align:left;
+		margin:20px 0 0px;
+		padding: 0!important;
+		.album-title {
+	    font-size: 18px;
+	    padding: 0!important;
+		}
+		p .album-artist{
+	    font-size: 13px!important;
+	    padding: 0!important;
+		}
+		p{
+		font-size: 12px!important;
+	    padding: 0!important;		}
+	}
+	
+	.wp-playlist-item .wp-playlist-caption{
+		text-align: center;
+	    text-decoration: none;
+	    color: $bg-white !important;
+	    padding:10px 0;
+	}
+	.audio-album .col-md-6 {
+    border: none !important;
+    margin: 30px auto;
+	}
+
+}
+
